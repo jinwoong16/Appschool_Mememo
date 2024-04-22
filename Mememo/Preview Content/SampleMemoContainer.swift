@@ -9,7 +9,8 @@ import Foundation
 import SwiftData
 
 let sampleMemos: [Memo] = [
-    .init(text: "one", color: .init(red: 120, green: 120, blue: 120, alpha: 1), created: Date())
+    .init(text: "one", color: .init(red: 0.5, green: 0.5, blue: 0.5, alpha: 1), created: Date()),
+    .init(text: "tw0", color: .init(red: 1, green: 0, blue: 0, alpha: 1), created: Date()),
 ]
 
 @MainActor
