@@ -11,18 +11,18 @@ import SwiftData
 @Model
 final class Memo: Identifiable {
     var id: UUID
-    var test: String
+    var text: String
     var color: MemoColor
     var created: Date
     
     init(
         id: UUID = UUID(), 
-        test: String,
+        text: String,
         color: MemoColor,
         created: Date
     ) {
         self.id = id
-        self.test = test
+        self.text = text
         self.color = color
         self.created = created
     }
