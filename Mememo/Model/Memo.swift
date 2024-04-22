@@ -28,7 +28,7 @@ final class Memo: Identifiable {
     }
 }
 
-struct MemoColor {
+struct MemoColor: Codable {
     let red: CGFloat
     let green: CGFloat
     let blue: CGFloat
