@@ -15,6 +15,7 @@
 		83A48DAD2BD630AA00B45201 /* MememoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A48DAC2BD630AA00B45201 /* MememoUITests.swift */; };
 		83A48DAF2BD630AA00B45201 /* MememoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A48DAE2BD630AA00B45201 /* MememoUITestsLaunchTests.swift */; };
 		83A48DBD2BD632AB00B45201 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A48DBC2BD632AB00B45201 /* Memo.swift */; };
+		83A48DC22BD635E100B45201 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A48DC12BD635E100B45201 /* Date+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		83A48DAC2BD630AA00B45201 /* MememoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MememoUITests.swift; sourceTree = "<group>"; };
 		83A48DAE2BD630AA00B45201 /* MememoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MememoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83A48DBC2BD632AB00B45201 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		83A48DC12BD635E100B45201 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		83A48D902BD630A900B45201 /* Mememo */ = {
 			isa = PBXGroup;
 			children = (
+				83A48DC02BD635C800B45201 /* Extensions */,
 				83A48DBF2BD634C300B45201 /* ViewModel */,
 				83A48DBE2BD634BF00B45201 /* View */,
 				83A48DBB2BD632A100B45201 /* Model */,
@@ -152,6 +155,14 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83A48DC02BD635C800B45201 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83A48DC12BD635E100B45201 /* Date+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 				83A48DBD2BD632AB00B45201 /* Memo.swift in Sources */,
 				83A48D942BD630A900B45201 /* ContentView.swift in Sources */,
 				83A48D922BD630A900B45201 /* MememoApp.swift in Sources */,
+				83A48DC22BD635E100B45201 /* Date+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
