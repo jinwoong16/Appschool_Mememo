@@ -11,7 +11,10 @@ import SwiftUI
 struct MememoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MemoView()
+                .modelContainer(
+                    for: Memo.self
+                )
         }
     }
 }
